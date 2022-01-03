@@ -1,0 +1,72 @@
+$primary-color: #FFF;
+// $secondary-color: #;
+$primary-background-color: #3178C6;
+$secondary-background-color: #235A97;
+
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+    background-color: $primary-background-color;
+    color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#search-btn {
+    background-color: $secondary-background-color;
+    border: none;
+    padding: 36px 52px;
+    font-size: 24px;
+    color: $primary-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    transition: 200ms background-color ease-in;
+    margin-bottom: 64px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: darken($color: $secondary-background-color, $amount: 5);
+    }
+}
+
+#app-div {
+    background-color: $secondary-background-color;
+    padding: 72px 52px;
+    font-size: 24px;
+    color: $primary-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    transition: 200ms background-color ease-in;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & ul {
+        list-style-type: none;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    & ul li {
+        width: 270px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    #temp {
+        font-size: 96px;
+    }
+    
+    #fore {
+        font-size: 16px;
+    }
+}

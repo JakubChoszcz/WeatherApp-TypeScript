@@ -1,0 +1,94 @@
+body {
+  font-family: 'Rubik Mono One', sans-serif;
+  background-color: #3178C6;
+  color: #FFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+#search-btn {
+  background-color: #235A97;
+  border: none;
+  padding: 36px 52px;
+  font-size: 24px;
+  color: #FFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  -webkit-transition: 200ms background-color ease-in;
+  transition: 200ms background-color ease-in;
+  margin-bottom: 64px;
+}
+
+#search-btn:hover {
+  cursor: pointer;
+  background-color: #1e4e82;
+}
+
+#app-div {
+  background-color: #235A97;
+  padding: 72px 52px;
+  font-size: 24px;
+  color: #FFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  -webkit-transition: 200ms background-color ease-in;
+  transition: 200ms background-color ease-in;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#app-div ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+#app-div ul li {
+  width: 270px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 18px;
+}
+
+#app-div p {
+  margin: 0;
+}
+
+#app-div #temp {
+  font-size: 96px;
+}
+
+#app-div #fore {
+  font-size: 16px;
+}
+/*# sourceMappingURL=style.css.map */
